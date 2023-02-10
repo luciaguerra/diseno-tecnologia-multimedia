@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Roboto+Condensed&display=swap');
+
+/* RESETEAR CONFIGURACIÓN DEL NAVEGADOR */
+html, body, h1, h3, ul, li {
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: black;
+}
+
+h1 {
+font-family: 'Bebas Neue', cursive;
+color: #01040B;
+font-size: 60px;
+line-height: 1.1;
+text-align: center;
+}
+
+h3 {
+font-size: 30px;
+font-family: 'Bebas Neue', cursive;
+color: black;
+text-align: center;
+line-height: 1.1;
+}
+
+h4 {
+font-family: 'Bebas Neue', cursive;
+}
+
+p {
+font-family: 'EB Garamond', serif;
+font-size: 20px;
+}
+
+/* SELECTORES PERSONALIZADOS */
+
+/* HEADER */
+.cabeza {
+line-height: 0;
+}
+
+.header {
+width: 100%;
+}
+
+.banda {
+background-color: black;
+text-align: center;
+font-size: 30px;
+margin-bottom: 10px;
+font-family: 'Bebas Neue', cursive;
+}
+
+.menu {
+display: inline-block;
+padding: 10px;
+list-style: none;
+}
+
+.vinculo {
+color: #FED404;
+text-decoration: none;
+padding: 10px;
+}
+
+.vinculo:hover {
+color: black;
+background-color: #FED404;
+text-decoration: none;
+}
+
+/* CUERPO */
+
+.cuerpo {
+padding: 60px;
+margin: 0 auto;
+}
+
+.cuerpo-2 {
+padding: 5px;
+margin: 0 auto;
+}
+
+.columna4 {
+column-gap: 20px;
+column-count: 2;
+}
+
+.columna5 {
+column-count: 6;
+margin-bottom: 5px;
+}
+
+.video-texto {
+font-size: 25px;
+}
+
+.subtitulo {
+text-align: left;
+}
+
+.contenedor {
+margin: 0 auto;
+width: 80%;
+background-color: #FED404;
+}
+
+.columna3 {
+column-count:2;
+column-gap:20px;
+}
+
+.videos {
+display: block;
+width: 90%;
+margin: auto;
+padding-top: 10px;
+padding-bottom: 30px;
+}
+
+.twitter-tweet {
+display: block;
+margin: auto;
+}
+
+/*FOOTER*/
+
+.pie {
+width: 100%;
+margin: auto;
+color: white;
+background-color: #01040B;
+text-align: center;
+padding-bottom: 10px;
+padding-top: 10px;
+overflow: hidden;
+}
+
+.fotopie {
+width: 70%;
+padding: 10px;
+padding-top: 10px;
+display: block;
+margin: auto;
+}
+
+.columna1, .columna2 {
+width: 43%;
+float: left;
+padding: 25px;
+}
+
+.columna2 {
+border-left: 1px solid #FED404;
+padding-left: 40px;
+}
+
+.explorador {
+font-size: 27px;
+font-family: 'Bebas Neue', cursive;
+color: #FED404;
+text-align: left;
+list-style: none;
+}
+
+.fila {
+color: #FED404;
+text-decoration: none;
+}
+
+.fila:hover {
+color: white;
+}
+
+.pie2 {
+background-color: #FED404;
+color: #01040B;
+text-align: center;
+font-family: 'Roboto Condensed', sans-serif;
+margin: auto;
+width: 80%;
+padding: 1px;
+text-decoration: none;
+font-size: 15px;
+}
+ /* OTROS */
+
+.adaptable {
+width:90%;
+border: 4px solid white;
+display: block;
+margin: auto;
+}
+
+.adaptable2 {
+width:50%;
+border: 4px solid white;
+display: block;
+margin: auto;
+}
+
+@media screen and (max-width:900px) {
+  .cuerpo {
+    width: 100%;
+  }
+}
